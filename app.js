@@ -1,7 +1,8 @@
 //https://blooming-thicket-82665.herokuapp.com/
-//https://github.com/m10hit/newsletter-signup
+//https://github.com/codeaholic-shub/Newsletter-Signup
+//https://github.com/aniketpatel62/Newsletter-SignUp/tree/main
 
-// //need to send data about subscibers to api
+//need to send data about subscibers to api
 // //in JSON form : see in format
 
 // //key : to authentication :99174b295b502092d808293c517d3956-us17
@@ -50,7 +51,7 @@ app.post("/", function(req, res){
         url: "https://us17.api.mailchimp.com/3.0/lists/fe22ae57eb",
         method: "POST",
         headers: {
-            "Authorization": "Aniket 99174b295b502092d808293c517d3956-us17"
+            "Authorization": "Aniket edd2ba7268117110eec57f2fd6db7848-us17"
         },
          body : jsonData 
     }
