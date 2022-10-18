@@ -4,8 +4,6 @@
 // //need to send data about subscibers to api
 // //in JSON form : see in format
 
-// //key : to authentication :99174b295b502092d808293c517d3956-us17
-// //list id/audience id : help api to identify the list : fe22ae57eb
 // //api end point
 
 const express= require("express")
@@ -50,7 +48,8 @@ app.post("/", function(req, res){
         url: "https://us17.api.mailchimp.com/3.0/lists/fe22ae57eb",
         method: "POST",
         headers: {
-            //"Authorization": "Aniket 99174b295b502092d808293c517d3956-us17"
+            //disbled mailchimp id
+            "Authorization": "Aniket 99174b295b502092d808293c517d3956-us17"
         },
          body : jsonData 
     }
